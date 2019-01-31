@@ -6,6 +6,7 @@ class Course
     @title = title
     @decription = description
     @schedule = schedule
+  end
   def self.all
     @@all
   end
