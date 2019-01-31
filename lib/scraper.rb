@@ -27,10 +27,6 @@ class Scraper
   end
 
   def get_courses
-    collection of course offerings = doc.css(".post")
-    course title = doc.css(".post").first.css("h2").text
-    course schedule = doc.css(".post").first.css(".date").text
-    course description = doc.css(".post").first.css("p").tex
   end
 
   def make_courses
